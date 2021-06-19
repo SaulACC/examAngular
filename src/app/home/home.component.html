@@ -1,0 +1,9 @@
+<h1>GREETINGS HUMAN</h1>
+
+<div><a routerLink=''>    BackArrow   </a></div>
+<div><a routerLink='/brand'>    Brand       </a></div>
+<div><a routerLink='/market'>    Market      </a></div>
+<div><button (click)="getGreetings()">Press me to greetings!</button></div>
+<div><input [(ngModel)]='username' type="text" name="username" placeholder="Type your firstname here!"></div>
+<div><input [(ngModel)]='lastname' type="text" name="username" placeholder="Type your lastname here!"></div>
+<div><button (click)="postName(username,lastname)">Press me to return your name</button></div>

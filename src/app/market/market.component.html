@@ -1,0 +1,25 @@
+<h1>WELCOME TO MARKET PRODUCT THING</h1>
+<div>
+  <a routerLink='/home'>I_AM_SUPPOSED_TO_BE_A_BACK_ARROW_BUT_THERE_IS_NO_BUDGET</a>
+</div>
+<div>
+  <input [(ngModel)]='prd1' type="text" name="product1" placeholder="Type product 1">
+</div>
+<div>
+  <input [(ngModel)]='prd2' type="text" name="product2" placeholder="Type product 2">
+</div>
+<div>
+  <input [(ngModel)]='prd3' type="text" name="product3" placeholder="Type product 3">
+</div>
+<div>
+  <input [(ngModel)]='sector' type="text" name="sector" placeholder="Type productive sector">
+</div>
+<div>
+  <input [(ngModel)]='email' type="email" name="email" placeholder="Type adress">
+</div>
+<div>
+  <input [(ngModel)]='tel' type="tel" name="tel" placeholder="Type telephonic number">
+</div>
+<div>
+  <button (click)="submitProduct(prd1,prd2,prd3,sector,email,tel)">CLICK ME PLIS</button>
+</div>
